@@ -20,7 +20,12 @@ input,label{
     display: block;
 }
 
+label{
+    margin: 1rem;
+}
+
 input{
+    padding: 1rem;
     margin-bottom: 0.5rem;
     width: 100%;
 }
@@ -33,4 +38,10 @@ input{
     border: 1px solid var(--primary-green);
     padding: 0.5rem;
     border-radius: 0.2rem;
+}
+#output-box{
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: 0 0 1rem grey;text-align: center;
+    margin: 1rem auto;
 }

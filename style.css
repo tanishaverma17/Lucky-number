@@ -31,17 +31,17 @@ input{
 }
 #check-number{
     display: block;
-    margin-top: 1rem;
-    margin: auto;
+    margin: 3rem auto;
     background: transparent;
     color: var(--primary-green);
     border: 1px solid var(--primary-green);
-    padding: 0.5rem;
+    padding: 1rem;
+    font-size: 20px;
     border-radius: 0.2rem;
 }
 #output-box{
     color: aliceblue;
     font-size: 30px;
     text-shadow: 0 0 1rem grey;text-align: center;
-    margin: 1rem auto;
+    margin: 2rem auto;
 }
